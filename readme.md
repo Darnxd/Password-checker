@@ -20,3 +20,22 @@ A simple yet powerful Python script that evaluates the strength of your password
    ```bash
    git clone https://github.com/Darnxd/Password-checker.git
    cd Password-checker
+Run the script:
+python3 passwordchecker.py
+
+
+🧪 Sample Output
+Enter your password: hello
+Strength: Weak ❌
+Reason: Too short, no uppercase letters, no numbers, no special characters
+
+Enter your password: Hello@123
+Strength: Strong ✅
+
+
+Password-checker/
+├── passwordchecker.py
+└── README.md
+
+
+
